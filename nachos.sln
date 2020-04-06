@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nachos", "nachos\nachos.csproj", "{0B908A93-4D73-4A12-87D8-D46448F2E7D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nachos.io", "nachos.io\nachos.io.csproj", "{339769D3-B912-4D08-8C7A-E1F802820E55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{0B908A93-4D73-4A12-87D8-D46448F2E7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B908A93-4D73-4A12-87D8-D46448F2E7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B908A93-4D73-4A12-87D8-D46448F2E7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339769D3-B912-4D08-8C7A-E1F802820E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339769D3-B912-4D08-8C7A-E1F802820E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339769D3-B912-4D08-8C7A-E1F802820E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339769D3-B912-4D08-8C7A-E1F802820E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
