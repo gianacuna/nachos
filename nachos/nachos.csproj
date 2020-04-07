@@ -8,5 +8,38 @@
 
   <ItemGroup>
     <Folder Include="APIController\" />
+    <Folder Include="wwwroot\lib\adminlte\" />
+    <Folder Include="wwwroot\lib\adminlte\css\" />
+    <Folder Include="wwwroot\lib\adminlte\js\" />
+    <Folder Include="wwwroot\lib\plugins\" />
+    <Folder Include="wwwroot\lib\adminlte\img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\adminlte\img\avatar.png" />
+    <Content Remove="wwwroot\lib\adminlte\img\avatar2.png" />
+    <Content Remove="wwwroot\lib\adminlte\img\avatar3.png" />
+    <Content Remove="wwwroot\lib\adminlte\img\avatar04.png" />
+    <Content Remove="wwwroot\lib\adminlte\img\avatar5.png" />
+    <Content Remove="wwwroot\lib\adminlte\img\photo3.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\photo4.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\prod-1.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\prod-2.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\prod-3.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\prod-4.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\prod-5.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user1-128x128.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user2-160x160.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user3-128x128.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user4-128x128.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user5-128x128.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user6-128x128.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user7-128x128.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\user8-128x128.jpg" />
+    <Content Remove="wwwroot\lib\adminlte\img\photo1.png" />
+    <Content Remove="wwwroot\lib\adminlte\img\photo2.png" />
+    <Content Remove="wwwroot\lib\plugins\tempusdominus-bootstrap-4\css\tempusdominus-bootstrap-4.css" />
+    <Content Remove="wwwroot\lib\plugins\tempusdominus-bootstrap-4\css\tempusdominus-bootstrap-4.min.css" />
+    <Content Remove="wwwroot\lib\plugins\tempusdominus-bootstrap-4\js\tempusdominus-bootstrap-4.js" />
+    <Content Remove="wwwroot\lib\plugins\tempusdominus-bootstrap-4\js\tempusdominus-bootstrap-4.min.js" />
   </ItemGroup>
 </Project>
