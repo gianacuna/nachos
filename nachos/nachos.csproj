@@ -13,6 +13,9 @@
     <Folder Include="wwwroot\lib\adminlte\js\" />
     <Folder Include="wwwroot\lib\plugins\" />
     <Folder Include="wwwroot\lib\adminlte\img\" />
+    <Folder Include="APIController\core\" />
+    <Folder Include="APIController\lib\" />
+    <Folder Include="APIController\lib\globelabs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\lib\adminlte\img\avatar.png" />
@@ -41,5 +44,11 @@
     <Content Remove="wwwroot\lib\plugins\tempusdominus-bootstrap-4\css\tempusdominus-bootstrap-4.min.css" />
     <Content Remove="wwwroot\lib\plugins\tempusdominus-bootstrap-4\js\tempusdominus-bootstrap-4.js" />
     <Content Remove="wwwroot\lib\plugins\tempusdominus-bootstrap-4\js\tempusdominus-bootstrap-4.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="APIController\lib\globelabs\GlobeLabsModels.cs" />
   </ItemGroup>
 </Project>
