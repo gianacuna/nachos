@@ -13,6 +13,25 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-firestore.js"></script>
+
+    <script>// Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAq2JQVcl5CNJNBjgDilGxbYKHZxdTJM_Q",
+            authDomain: "nachos-834d4.firebaseapp.com",
+            databaseURL: "https://nachos-834d4.firebaseio.com",
+            projectId: "nachos-834d4",
+            storageBucket: "nachos-834d4.appspot.com",
+            messagingSenderId: "1043451478191",
+            appId: "1:1043451478191:web:f56e3cbb865044b273945a"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);</script>
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
@@ -190,8 +209,7 @@
         <!-- /.control-sidebar -->
     </div>
     <!-- ./wrapper -->
-    <!-- jQuery -->
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    
     <!-- jQuery UI 1.11.4 -->
     <!--<script src="plugins/jquery-ui/jquery-ui.min.js"></script>-->
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->

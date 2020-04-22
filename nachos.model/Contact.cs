@@ -11,6 +11,7 @@ namespace nachos.io.model
 
         public int CountryCode { get; set; }
         public float PhoneNumber { get; set; }
+        public String AccessToken { get; set; }
 
         public Contact()
         {
