@@ -1,0 +1,33 @@
+﻿@model nachos.Models.LoginModel
+
+@{
+    Layout = "_LoginLayout";
+    ViewBag.Title = "Log In";
+}
+
+<form class="form-signin" method="post">
+    <div class="text-center mb-4">
+        <img class="mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Log in to nachos</h1>
+    </div>
+
+    <div class="form-label-group">
+        @Html.TextBoxFor(m => m.Username, null, new { @class = "form-control", placeholder = "Email address" })
+        <label for="inputEmail">Email address</label>
+        @Html.ValidationMessageFor(m => m.Username)
+    </div>
+
+    <div class="form-label-group">
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password" })
+        <label for="inputPassword">Password</label>
+        @Html.ValidationMessageFor(m => m.Password)
+    </div>
+
+    <div class="checkbox mb-3">
+        <label>
+            @Html.CheckBoxFor(m => m.RememberMe) Remember me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted text-center">© 2020</p>
+</form>

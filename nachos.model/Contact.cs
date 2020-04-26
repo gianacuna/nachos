@@ -5,17 +5,15 @@ namespace nachos.io.model
 {
     public class Contact : ModelCore
     {
-        public String DisplayLabel { get; set; }
-        public String FirstName { get; set; }
-        public String LastName { get; set; }
-
-        public int CountryCode { get; set; }
-        public float PhoneNumber { get; set; }
+        public String Name { get; set; }
+        public String MobileNumber { get; set; }
         public String AccessToken { get; set; }
+        public DateTime? DateRegistered { get; set; } = null;
+
+        public Guid? ContactGroup { get; set; }
 
         public Contact()
         {
-
         }
     }
 }

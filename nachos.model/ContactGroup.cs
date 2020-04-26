@@ -6,7 +6,6 @@ namespace nachos.io.model
 {
     public class ContactGroup : ModelCore
     {
-        public Guid OwnerId { get; set; }
         public String Name { get; set; }
         public String Description { get; set; }
 

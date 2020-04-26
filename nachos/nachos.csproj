@@ -16,6 +16,7 @@
     <Folder Include="APIController\core\" />
     <Folder Include="APIController\lib\" />
     <Folder Include="APIController\lib\globelabs\" />
+    <Folder Include="Views\Public\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\lib\adminlte\img\avatar.png" />
@@ -48,8 +49,17 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="APIController\lib\globelabs\GlobeLabsModels.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nachos.io\nachos.io.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\nachos.model\nachos.model.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
